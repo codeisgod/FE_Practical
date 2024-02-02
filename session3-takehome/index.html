@@ -1,17 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      h1 {
-        background-color: green;
-        color: white;
+
+<head>
+  <title>Meet the team</title>
+  <style>
+    body {
+      background-color: snow;
+    }
+
+    h1 {
+      color: indigo;
+    }
+
+    .main-subtitle {
+      color: gray;
+    }
+
+    .team-member {
+      width: 256px;
+      /*
+      for <p> tag under class .team-member if we want to apply some differ css we can use
+        like below 
+
+        p {
+          opacity: 0.8;
+        }
+        or as below 
+      */
+    }
+
+    .team-member p {
+      opacity: 0.8;
+    }
+
+    #anna {
+      background-color: darkcyan;
+      color: beige;
+
+      h2,
+      h3 {
+        color: honeydew;
       }
-      h1:hover {
-        background-color: blue;
+    }
+
+    #harry {
+      background-color: cornsilk;
+    }
+
+    #harry h2,
+    #harry h3 {
+      color: darkslategray;
+    }
+
+    #sofia {
+      background-color: dodgerblue;
+      color: lightcyan;
+
+      h2,
+      h3 {
+        color: navy;
       }
-    </style>
-  </head>
-  <body>
-    <h1>New Heading</h1>
-  </body>
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Meet the team</h1>
+    <p class="main-subtitle">Meet the people who make this software awesome</p>
+  </header>
+
+  <section class="team-member" id="anna">
+    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=annakendrick" alt="Anna Kendrick" width="100"
+      height="100">
+    <h2>Anna Kendrick</h2>
+    <h3>Front-end Ninja</h3>
+    <p>Bibliophile, loves to dive into fictional worlds, ships JS code like brownies</p>
+  </section>
+
+  <section class="team-member" id="harry">
+    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=harryfawn" alt="Harry Fawn" width="100" height="100">
+    <h2>Harry Fawn</h2>
+    <h3>Illustrator</h3>
+    <p>Creates new illustrations each week, will kill for coffee, and loves beaches.</p>
+  </section>
+
+  <section class="team-member" id="sofia">
+    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=sofiasulta" alt="Sofia Sultan" width="100" height="100">
+    <h2>Sofia Sultan</h2>
+    <h3>Backend Engineer</h3>
+    <p>Donuts over waffles. Martinis over whiskeys. Typescript over anything.</p>
+  </section>
+
+</body>
+
 </html>
