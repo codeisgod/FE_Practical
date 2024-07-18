@@ -4,6 +4,9 @@
 }
 
 .dot {
+   width: 1 rem;
+   height: 1 rem;
    margin-bottom: 4px;
-   color: #424242 round; 
+   color: #424242; 
+   border-radius: 50%;
 }
