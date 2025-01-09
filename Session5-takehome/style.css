@@ -25,6 +25,10 @@
     background-color: #424242;
 }
 
-.menu .dot:hover {
+.menu .dot:hover, .menu .square:hover, .menu .rect:hover {
     background-color:rgba(68, 240, 76, 0.4);
 }
+
+.menu .dot:last-child, .menu .square:last-child, .menu .rect:last-child {
+    margin-bottom: 0;
+  }
